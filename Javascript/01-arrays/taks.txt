@@ -66,4 +66,18 @@ The unique element is 4
 //methods
 push, shift, nestted array, foreach, map, filter,
 find, some(true, false), every, icludes
+
+// new methods - returns new array
+with(index, element)
+
+toSorted === sort
+//[...array].sort() <---old
+
+toRevesed === reverse
+
+toSpliced === splice(index, toIndex, addedElements)
+
+the new ones are not supprted yet. only a couple months
+
+//spread opreator
  reduce
