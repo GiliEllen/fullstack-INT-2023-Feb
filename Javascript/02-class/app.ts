@@ -86,3 +86,22 @@ const minus = (a: number, b: number) => {
 // for (let i = 0; i < array.length; i++) {
 //     console.log(array[i])
 // }
+
+
+function addTwoNumbers(a:number, b:number) {
+    return a + b
+}
+
+function calcAge(birthYear, currentYear) {
+    
+    return `in year ${currentYear} this person was ${currentYear - birthYear} year old`
+}
+
+function calcAge2(birthYear:number[], currentYear) {
+    birthYear.forEach(year => {
+        console.log(`in year ${currentYear} this person was ${currentYear - year} year old`)
+    });
+    
+}
+
+calcAge2([2020, 2019], 2022)

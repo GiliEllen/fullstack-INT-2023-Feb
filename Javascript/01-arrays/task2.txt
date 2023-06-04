@@ -15,7 +15,9 @@ Print the updated array.
 
 Exercise 4: Create an array called "ages" with five different 
 ages. Sort the array in ascending order. 
-Print the sorted array.
+Print the sorted array. 
+
+ sort
 
 Hard:
 
@@ -24,6 +26,8 @@ student objects. Each object should have properties like
 "name", "age", and "grade". Write a function that takes the 
 "students" array as input and returns an array with only the 
 names of the students.
+
+
 
 Exercise 6: Create an array called "numbers" with ten random 
 numbers. Write a function that takes the "numbers" array as 
@@ -36,6 +40,8 @@ Exercise 7: Create an array called "words" with five different
 words. Write a function that takes the "words" array as input 
 and returns a new array with the words sorted in alphabetical 
 order, regardless of the case (uppercase or lowercase).
+
+//Reguler Expression
 
 Exercise 8: Create an array called "matrix" with three
 sub-arrays, each containing four numbers. Write a function

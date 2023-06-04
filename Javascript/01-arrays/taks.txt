@@ -1,6 +1,6 @@
 easy
 
-1. creat a function that gets a number and prints the element
+1. create a function that gets a number and prints the element
 in a given array.
 if not exist - print error
 
@@ -11,11 +11,13 @@ if not exist - print error
 4. Write a simple JavaScript program to join all elements of the following array into a string.
 Sample array : myColor = ["Red", "Green", "White", "Black"];
 
+--toString
+
 medium
 
 1. Write a JavaScript program that accepts a number 
 as input and inserts dashes (-) between each even number. For 
-example if you accept 025468 the output should be 0-254-6-8.
+example if you accept[ 0,2,5,4,6,8] the output should be 0-254-6-8.
 
 2. Write a JavaScript program to find the most frequent 
 item in an array.
@@ -30,6 +32,7 @@ Write a JavaScript program to display the colors in
 "1st choice is Blue ."
 "2nd choice is Green."
 "3rd choice is Red."
+"4th choice is Orange"
 
 hard
 
@@ -62,6 +65,10 @@ but one occur twice, find the unique element.
 Example
 const arr = [1,2,3,4,3,2,1,5,5]
 The unique element is 4
+
+
+
+
 
 //methods
 push, shift, nestted array, foreach, map, filter,

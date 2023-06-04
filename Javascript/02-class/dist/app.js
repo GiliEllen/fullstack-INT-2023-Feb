@@ -48,3 +48,15 @@ var minus = function (a, b) {
 // for (let i = 0; i < array.length; i++) {
 //     console.log(array[i])
 // }
+function addTwoNumbers(a, b) {
+    return a + b;
+}
+function calcAge(birthYear, currentYear) {
+    return "in year " + currentYear + " this person was " + (currentYear - birthYear) + " year old";
+}
+function calcAge2(birthYear, currentYear) {
+    birthYear.forEach(function (year) {
+        console.log("in year " + currentYear + " this person was " + (currentYear - year) + " year old");
+    });
+}
+calcAge2([2020, 2019], 2022);
